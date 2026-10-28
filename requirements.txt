@@ -1,0 +1,16 @@
+# Install PyTorch for your CUDA version first if needed: https://pytorch.org/get-started/locally/
+# (the paper's experiments used PyTorch 2.1.0 with CUDA 12.1)
+torch>=2.1
+torch_geometric>=2.4
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+tqdm
+python-dateutil
+opencv-python-headless  # imported by eTaPR
+
+# eTaPR 1.12 (time-series aware precision/recall), from the official repository (MIT License)
+eTaPR @ https://raw.githubusercontent.com/saurf4ng/eTaPR/main/archieves/eTaPR-1.12-py3-none-any.whl

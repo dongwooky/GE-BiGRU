@@ -1,0 +1,26 @@
+# HAI dataset (download with code/download_data.py)
+data/train/
+data/test/
+
+# Outputs
+model/
+result/
+logs/
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments and secrets
+.env
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
