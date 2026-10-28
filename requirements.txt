@@ -13,4 +13,4 @@ python-dateutil
 opencv-python-headless  # imported by eTaPR
 
 # eTaPR 1.12 (time-series aware precision/recall), from the official repository (MIT License)
-eTaPR @ https://raw.githubusercontent.com/saurf4ng/eTaPR/main/archieves/eTaPR-1.12-py3-none-any.whl
+eTaPR @ https://raw.githubusercontent.com/wshw4ng/eTaPR/main/archieves/eTaPR-1.12-py3-none-any.whl

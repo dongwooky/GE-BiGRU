@@ -14,7 +14,6 @@ from utils import list_csvs, dataframe_from_csvs, normalize
 from preprocess import HaiDataset
 from modules import build_model, device
 from training import train
-import pandas as pd
 
 # ─── CLI ─────────────────────────────────────────────────────────────────────
 parser = argparse.ArgumentParser(description="Train an anomaly detection model.")
